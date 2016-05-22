@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace Game1
 {
-    class Player
+    public class Player
     {
+        public void initialize()
+        {
+
+        }
+
+        public void Update()
+        {
+
+        }
+
+        public void Draw()
+        {
+
+        }
     }
 }
