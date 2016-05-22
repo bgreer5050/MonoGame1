@@ -32,9 +32,12 @@ namespace Game1
             get { return PlayerTexture.Height; }
         }
 
-        public void initialize()
+        public void initialize(Texture2D texture, Vector2 position)
         {
-
+            PlayerTexture = texture;
+            Position = position;
+            Active = true;
+            Health = 180;
         }
 
         public void Update()
